@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons</title>
+  <style>
+    .sub-btn{
+      background-color: rgb(204, 0, 0);
+      color: white;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 10px;
+      transition: opacity 0.15s;
+      vertical-align:top;
+    }
+    .sub-btn:hover{
+      opacity:0.80;
+    }
+    .sub-btn:active{
+      opacity:0.20;
+    }
+    .join-btn{
+      background-color: white;
+      color: rgb(6, 95, 212);
+      padding-top: 9px;
+      padding-bottom: 9px;
+      padding-left: 16px;
+      padding-right:16px ;
+      border-style: solid;
+      border-color: rgb(6, 95, 212); 
+      border-width: 1px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-right: 10px;
+      transition: background-color 0.15s,color 0.15s;
+      vertical-align: top;
+    }
+    .join-btn:hover{
+      background-color: rgb(6, 95, 212);
+      color: white;
+    }
+    .join-btn:active{
+      opacity: 0.15;
+    }
+    .tweet-btn{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 18px;
+      padding-left: 18px;
+      border-radius: 18px;
+      border: none;
+      background-color: rgb(29, 155, 240);
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+      vertical-align: top;
+    }
+    .tweet-btn:hover{
+      box-shadow: 5px 5px 10px rgba(0,0,0, 0.15);
+    }
+  </style>
+</head>
+<body>
+  <button class="sub-btn">
+    SUBSCRIBE
+  </button>
+
+  <button class="join-btn">
+    JOIN
+  </button>
+<button class="tweet-btn">
+  Tweet
+</button>
+</body>
+</html>
